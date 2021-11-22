@@ -38,48 +38,82 @@ $('.news__slider').slick({
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
+        
       ]
 })
-
-$('.partners__slider').slick({
-    nextArrow:'<button type="button" class="slick-btn slick-next"></button>',
-    prevArrow:'<button type="button" class="slick-btn slick-prev"></button>',
-    dots: false,
-    infinite:false,
-    slidesToShow:4,
-    slidesToScroll: 4,
-    responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
+$('.partners__slider').slick ({
+  nextArrow:false,
+  prevArrow:false,
+  dots: true,
+  infinite:true,
+  slidesToShow:6,
+  rows:1,
+  slidesToScroll: 6,
+  slidesPerRow: 6,
+  autoplay:true,
+  responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: true
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      
+    ]
 })
-
+$('.clients__slider').slick ({
+  nextArrow:false,
+  prevArrow:false,
+  dots: true,
+  infinite:true,
+  slidesToShow:6,
+  rows:1,
+  slidesToScroll: 6,
+  slidesPerRow: 6,
+  autoplay:true,
+  responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      
+    ]
+})
 
 });
