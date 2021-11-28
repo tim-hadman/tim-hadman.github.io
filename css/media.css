@@ -171,6 +171,7 @@ line-height: 18px;
         margin: 0; 
     }
     .footer__title-H {
+       
         position: relative;
         left: 150px;
         top: 15px;
@@ -178,6 +179,7 @@ line-height: 18px;
         line-height: 75%;
         font-weight: 700;
     }.footer__title-l {
+        
         position: relative;
         left: 150px;
         font-size: 14px;
