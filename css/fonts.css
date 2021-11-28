@@ -66,3 +66,12 @@
 .icon-check:before {
   content: "\f00c";
 }
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}

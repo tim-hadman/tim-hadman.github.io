@@ -1,0 +1,305 @@
+/* Медиа запрос для экрана с шириной до 1140px*/
+
+@media(max-width: 1140px){
+    .header__mobile, .header__email, .header__phone{
+        padding-right: 40px;
+    }
+}
+@media(max-width: 1110px){
+.benefits__img{
+    display: none;
+}
+.benefits__title{
+    margin-left: 0px;
+}
+.benefits__texts{
+    margin-left: 0px;
+    display: block;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.benefits__texts li{
+    display: block;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+}
+@media(max-width: 1020px){
+    .footer{
+        height:  330px;
+    }
+    .about {
+        padding-top: 50px;
+        }
+        .about__top{
+            display: block;
+            justify-content: center;
+        }
+        
+        .about__text{
+        color: #5a5959; 
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: justify;
+        }
+        .about__items
+        {
+            display: block;
+            justify-content: space-between;
+            padding-bottom: 50px;
+        }
+        .about__item{
+            max-width: 80%;
+            margin: 30px auto;
+            
+        }
+        .experience__items{
+            display: block;
+        }
+        .experience__item{
+            max-width: 80%;
+            max-height: 80%;
+            margin: 30px auto
+    
+        }
+        .experience__item-text{
+            padding-bottom: 10px;
+    
+       }
+    }
+
+@media(max-width: 950px){
+    .slider .slick-btn{
+        display: none !important;
+    }
+
+}
+@media(max-width: 860px){
+      .Testimonialst__items-text{
+font-size: 14px;
+line-height: 18px;
+      }
+    .header__phone{
+        display: none;
+     }
+     .header__mobile{
+        padding-right: 0px;
+     }
+    .header__btn-menu{
+        display: block;
+    }
+    .menu{
+        padding-top: 5px;
+    }
+    .menu ul{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 10px;
+        z-index: 50;
+    }
+    .menu li {
+        display: contents;
+      }
+    .menu a{
+        display: block;
+        background-color: #0066cc;
+        text-align: center;
+        padding-left:15px; 
+        padding-right:  15px;  
+        font-size: 32px;
+        line-height: 40px;
+        color: ivory;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    @media(max-width: 800px){
+        .footer{
+            height: 400px;
+        }
+        .footer__about-title, .footer__about-items a{
+            margin-left: 20%;
+        }
+    }
+@media(max-width: 600px)
+{
+    
+    .header__email{
+        display: none;
+
+    }
+    .header__mobile{
+        margin-left: 0px;
+    }
+}
+@media(max-width:570px){
+    .benefits__texts{
+        font-size: 24px;
+        line-height: 30px; 
+        padding-left: 0;
+    }
+    .benefits__texts li{
+        margin-bottom: 5px;
+    }
+    .benefits__title{
+        padding-top: 10px;
+    }
+}
+@media(max-width:490px){
+    .slider{
+        min-height: auto;
+    }
+    .slider__title {
+        font-size: 30px;
+    }
+    .slider__item-content{
+        padding-top: 50px;
+    }
+    .slider__text {
+        font-size: 12px;
+        margin-bottom: 70px;
+    }
+    .default-btn{
+        line-height: 16px;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    .footer__logo{
+        transform: scale(0.7);
+        margin: 0; 
+    }
+    .footer__title-H {
+        position: relative;
+        left: 150px;
+        top: 15px;
+        font-size: 25px;
+        line-height: 75%;
+        font-weight: 700;
+    }.footer__title-l {
+        position: relative;
+        left: 150px;
+        font-size: 14px;
+        line-height: 24.5px;
+        letter-spacing: 0.5px;
+        top: 15px;
+    }
+    .footer__text {
+        margin: 50px 0px;
+        width: 50%;
+        text-align: justify;
+        color: #757575;
+        font-size: 14px;}
+    .footer__sitemap-items a {
+            margin-top: 2px;
+            margin-left: 50%;
+            display: block;
+            position: relative;
+            font-size: 18px;
+            line-height: 23px;
+            letter-spacing: .2px;
+            text-align: center;
+            color: #757575;
+    }
+    .footer__sitemap-title {
+            line-height: 33px;
+            position: relative;
+            margin-left: 50%;
+            margin-top: 9px;
+            font-size: 26px;
+            font-weight: 700;
+            display: block;
+            text-align: center;
+    }
+    .footer__about-items a {
+            margin-top: 2px;
+            text-align: center;
+            margin-left: 50%;
+            display: block;
+            position: relative;
+            font-size: 18px;
+            line-height: 23px;
+            letter-spacing: .2px;
+            color: #757575;
+    }
+    .footer__about-title {
+            line-height: 33px;
+            position: relative;
+            margin-left: 50%;
+            margin-top: -402px;
+            font-size: 26px;
+            font-weight: 700;
+            display: block;
+            text-align: center;
+        }
+        }
+
+@media(max-width: 410px){
+    
+    .about {
+        padding-top: 50px;
+        }
+        .about__top{
+            display: block;
+            justify-content: center;
+        }
+        
+        .about__text{
+        color: #5a5959; 
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: justify;
+        }
+        .about__item-btn2{
+            justify-content: center;
+            padding-bottom: 0;
+        }
+        .about__item{
+            justify-content: center;
+            padding-bottom: 0;
+        }
+        .about__item-link{
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 12px;
+            margin-right:10px
+        }
+        .about__item-title{
+            font-size: 24px;
+            line-height: 24px;
+            padding-bottom:20px;
+            padding-top: 0px;
+        }
+        .about__item-text{
+            font-size: 14px;
+            line-height: 16px;
+            padding-bottom:25px
+        }
+        .about-img{
+            display: none;
+        }
+        .experience__item-text{
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+}
+@media(max-width: 315px){
+    .header__top{
+        font-size: 12px;
+        font-size: 12px;
+        height: 36px;
+    }
+    .header__mobile{
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+    .dropdown-content {
+        width: 50px;
+        right: 0;
+        margin-top: 14px;
+    }
+}
+

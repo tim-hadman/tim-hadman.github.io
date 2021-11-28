@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/m">
 
 </head>
 
@@ -20,24 +22,23 @@
     <header class="header">
         <div class="header__top">
             <div class="container">
-                <div class="header__contacts">
-                    <a class="header__email" href="#">info@pro-consult.uz</a>
-                    <a class="header__phone" href="tel:+998 (71) 123-45-67">+998 (71) 123-45-67</a>
-                    <a class="header__mobile" href="tel:+998 (90) 123-45-67">+998 (90) 123-45-67</a>
-                    <section id="language">
-                        <ul id="drop_lang">
-                            <li><a href=" "><img src="img/en.png"> ENG</a> </li>
-                            <ul class="drop_lang">
-                                <li><a href="index.php?lang=ru"><img src="img/ru.png"> RU</a></li>
-
-                                <li><a href="index.php?lang=en"><img src="img/uz.png"> UZB</a></li>
-                            </ul>
-                        </ul>
-                    </section>
+                <a class="header__email" href="#">info@pro-consult.uz</a>
+                <a class="header__phone" href="tel:+998 (71) 123-45-67">+998 (71) 123-45-67</a>
+                <a class="header__mobile" href="tel:+998 (90) 123-45-67">+998 (90) 123-45-67</a>
+                <!-- языковой переключатель -->
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#">English</a></button>
+                    <div class="dropdown-content">
+                        <a href="#">English</a>
+                        <a href="#">Русский </a>
+                        <a href="#">Узбекча</a>
+                    </div>
                 </div>
+                <!-- ************************************************* -->
+
             </div>
         </div>
-        </div>
+
         <div class="header__content">
             <div class="container">
                 <div class="header__content-inner">
@@ -47,6 +48,9 @@
                         </a>
                     </div>
                     <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
                         <ul>
                             <li><a href="#">Home </a> </li>
                             <li><a href="#">About </a> </li>
@@ -55,12 +59,12 @@
                             <li><a href="#">Products</a> </li>
                             <li><a href="#">Contact us</a> </li>
                         </ul>
-
                     </nav>
                 </div>
             </div>
         </div>
     </header>
+    <!-- ************************************************* -->
     <section class="slider">
         <div class="container">
             <div class="slider__inner">
@@ -164,7 +168,7 @@
             </div>
             <div class="about__items">
                 <div class="about__item">
-                    <img src="img/about-1.png" alt="">
+                    <div class="about-img"> <img src="img/about-1.png" alt=""></div>
                     <div class="about__item-title">
                         Consulting
                     </div>
@@ -179,7 +183,7 @@
                     </div>
                 </div>
                 <div class="about__item">
-                    <img src="img/about-2.png" alt="">
+                    <div class="about-img"> <img src="img/about-2.png" alt=""></div>
                     <div class="about__item-title">
                         Technical assistance
                     </div>
@@ -194,7 +198,7 @@
                     </div>
                 </div>
                 <div class="about__item">
-                    <img src="img/about-3.png" alt="">
+                    <div class="about-img"> <img src="img/about-3.png" alt=""></div>
                     <div class="about__item-title">
                         Education
                     </div>
@@ -211,33 +215,37 @@
             </div>
         </div>
     </section>
+    <!-- ************************************************* -->
     <section class="benefits">
         <div class="container">
-            <div class="benefits__img">
-                <img src="img/benefits.jpg" alt="#">
+            <div class="benefits__items">
+                <div class="benefits__img">
+                    <img src="img/benefits.jpg" alt="#">
+                </div>
+                <div class="benefits__title">
+                    Our benefits
+                </div>
+                <div class="benefits__texts">
+                    <ul>
+                        <li>
+                            High quality and balanced cost;
+                        </li>
+                        <li>
+                            Personal approach;
+                        </li>
+                        <li>
+                            Specialization and competency;
+                        </li>
+                        <li>
+                            Warranty & Support
+                        </li>
+                    </ul>
+                </div>
+                <a class="benefits__link" href="#">More info</a>
             </div>
-            <div class="benefits__title">
-                Our benefits
-            </div>
-            <div class="benefits__texts">
-                <ul>
-                    <li>
-                        High quality and balanced cost;
-                    </li>
-                    <li>
-                        Personal approach;
-                    </li>
-                    <li>
-                        Specialization and competency;
-                    </li>
-                    <li>
-                        Warranty & Support
-                    </li>
-                </ul>
-            </div>
-            <a class="benefits__link" href="#">More info</a>
         </div>
     </section>>
+    <!-- ************************************************* -->
     <section class="news">
         <div class="container">
             <div class="news__title">
@@ -318,7 +326,8 @@
                         Energy
                     </div>
                     <div class="experience__item-img">
-                        <img src="img/experience-1.png" alt="">
+                        <img src="img/experience-1.png" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                     <div class="experience__item-text">
                         dsdfsfsfsfdfsdsd fs dsdfsfsfsfdfsdsd fsfdfsfdfsdfsdfdsfdfs dfdfsdssssds ssfsfs dsdfsfsfsfdfsdsd
@@ -332,7 +341,8 @@
                         Oil$Gas
                     </div>
                     <div class="experience__item-img">
-                        <img src="img/experience-2.png" alt="">
+                        <img src="img/experience-2.png" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                     <div class="experience__item-text">
                         dsdfsfsfsfdfsdsd fs dsdfsfsfsfdfsdsd fsfdfsfdfsdfsdfdsfdfs dfdfsdssssds ssfsfs dsdfsfsfsfdfsdsd
@@ -346,7 +356,8 @@
                         MIning
                     </div>
                     <div class="experience__item-img">
-                        <img src="img/experience-3.png" alt="">
+                        <img src="img/experience-3.png" alt="" style="
+                        width: 100%;height: 100%;">
                     </div>
                     <div class="experience__item-text">
                         dsdfsfsfsfdfsdsd fs dsdfsfsfsfdfsdsd fsfdfsfdfsdfsdfdsfdfs dfdfsdssssds ssfsfs dsdfsfsfsfdfsdsd
@@ -369,46 +380,54 @@
             <div class="partners__slider">
                 <div class="partners__slider-item">
                     <div class="partners__slider-item-box">
-                        <img class="partners__slider__item-img" src="img/parners/partners-1.jpg" alt="">
+                        <img class="partners__slider__item-img" src="img/parners/partners-1.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="partners__slider-item">
                     <div class="partners__slider-item-box">
-                        <img class="partners__slider__item-img" src="img/parners/partners-2.jpg" alt="">
+                        <img class="partners__slider__item-img" src="img/parners/partners-2.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="partners__slider-item">
                     <div class="partners__slider-item-box">
-                        <img class="partners__slider__item-img" src="img/parners/partners-3.jpg" alt="">
+                        <img class="partners__slider__item-img" src="img/parners/partners-3.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="partners__slider-item">
                     <div class="partners__slider-item-box">
-                        <img class="partners__slider__item-img" src="img/parners/partners-4.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="partners__slider-item">
-                    <div class="partners__slider-item-box">
-                        <img class="partners__slider__item-img" src="img/parners/partners-5.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="partners__slider-item">
-                    <div class="partners__slider-item-box">
-                        <img class="partners__slider__item-img" src="img/parners/partners-6.jpg" alt="">
+                        <img class="partners__slider__item-img" src="img/parners/partners-4.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
 
                 <div class="partners__slider-item">
                     <div class="partners__slider-item-box">
-                        <img class="partners__slider__item-img" src="img/parners/partners-7.jpg" alt="">
+                        <img class="partners__slider__item-img" src="img/parners/partners-5.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
 
                 <div class="partners__slider-item">
                     <div class="partners__slider-item-box">
-                        <img class="partners__slider__item-img" src="img/parners/partners-8.jpg" alt="">
+                        <img class="partners__slider__item-img" src="img/parners/partners-6.jpg" alt="" style="
+                        width: 100%; height: 100%;">
+                    </div>
+                </div>
+
+                <div class="partners__slider-item">
+                    <div class="partners__slider-item-box">
+                        <img class="partners__slider__item-img" src="img/parners/partners-7.jpg" alt="" style="
+                        width: 100%; height: 100%;">
+                    </div>
+                </div>
+
+                <div class="partners__slider-item">
+                    <div class="partners__slider-item-box">
+                        <img class="partners__slider__item-img" src="img/parners/partners-8.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
             </div>
@@ -418,37 +437,44 @@
             <div class="clients__slider">
                 <div class="clients__slider-item">
                     <div class="clients__slider-item-box">
-                        <img class="clients__slider__item-img" src="img/clients/clients-1.jpg" alt="">
+                        <img class="clients__slider__item-img" src="img/clients/clients-1.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="clients__slider-item">
                     <div class="clients__slider-item-box">
-                        <img class="clients__slider__item-img" src="img/clients/clients-2.jpg" alt="">
+                        <img class="clients__slider__item-img" src="img/clients/clients-2.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="clients__slider-item">
                     <div class="clients__slider-item-box">
-                        <img class="clients__slider__item-img" src="img/clients/clients-3.jpg" alt="">
+                        <img class="clients__slider__item-img" src="img/clients/clients-3.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="clients__slider-item">
                     <div class="clients__slider-item-box">
-                        <img class="clients__slider__item-img" src="img/clients/clients-4.jpg" alt="">
+                        <img class="clients__slider__item-img" src="img/clients/clients-4.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="clients__slider-item">
                     <div class="clients__slider-item-box">
-                        <img class="clients__slider__item-img" src="img/clients/clients-5.jpg" alt="">
+                        <img class="clients__slider__item-img" src="img/clients/clients-5.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="clients__slider-item">
                     <div class="clients__slider-item-box">
-                        <img class="clients__slider__item-img" src="img/clients/clients-6.jpg" alt="">
+                        <img class="clients__slider__item-img" src="img/clients/clients-6.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="clients__slider-item">
                     <div class="clients__slider-item-box">
-                        <img class="clients__slider__item-img" src="img/clients/clients-7.jpg" alt="">
+                        <img class="clients__slider__item-img" src="img/clients/clients-7.jpg" alt="" style="
+                        width: 100%; height: 100%;">
                     </div>
                 </div>
             </div>
@@ -461,39 +487,92 @@
                     What Our Clients Say
                 </div>
                 <div class="Testimonialst__items-inner">
-                    <div class="Testimonialst__items">
+                    <div class="Testimonialst__item">
                         <div class="Testimonialst__items-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet. Lorem ipsum dolor
+                            1Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet. Lorem ipsum
+                            dolor
                             sit
-                            amet, consectetur adipiscing elit dolor sit amet...
+                            amet, consectetur adipiscing elit dolor sit amet1...
                         </div>
-                        <div class="Testimonialst__items-imgs">
-                            <img class="Testimonialst__items-img" src="img/testimonialst/testimonialst-1.jpg" alt="">
-                        </div>
+                        <img class="Testimonialst__items-img" src="img/testimonialst/testimonialst-1.jpg" alt="" s>
                     </div>
-                    <div class="Testimonialst__items">
+                    <div class="Testimonialst__item">
                         <div class="Testimonialst__items-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet. Lorem ipsum dolor
+                            2Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet. Lorem ipsum
+                            dolor
                             sit
                             amet, consectetur adipiscing elit dolor sit amet...
                         </div>
-                        <div class="Testimonialst__items-imgs">
-                            <img class="Testimonialst__items-img" src="img/testimonialst/testimonialst-1.jpg" alt="">
-                        </div>
+                        <img class="Testimonialst__items-img" src="img/testimonialst/testimonialst-2.jpg" alt="" s>
                     </div>
-                    <div class="Testimonialst__items">
+                    <div class="Testimonialst__item">
                         <div class="Testimonialst__items-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet. Lorem ipsum dolor
+                            3Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet. Lorem ipsum
+                            dolor
                             sit
                             amet, consectetur adipiscing elit dolor sit amet...
                         </div>
-                        <div class="Testimonialst__items-imgs">
-                            <img class="Testimonialst__items-img" src="img/testimonialst/testimonialst-1.jpg" alt="">
+                        <img class="Testimonialst__items-img" src="img/testimonialst/testimonialst-3.jpg" alt="" s>
+                    </div>
+                    <div class="Testimonialst__item">
+                        <div class="Testimonialst__items-text">
+                            3Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet. Lorem ipsum
+                            dolor
+                            sit
+                            amet, consectetur adipiscing elit dolor sit amet...
                         </div>
+                        <img class="Testimonialst__items-img" src="img/testimonialst/testimonialst-3.jpg" alt="" s>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer__logo">
+                    <img src="img/logo.png" alt="" style="width: 110%">
+                </div>
+                <div class="footer__title-H">
+                    EXPERIENCE
+                </div>
+                <div class="footer__title-l">
+                    Exceeding Expectation
+                </div>
+                <div class="footer__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit dolor sit amet.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    dolor
+                    sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet.
+                </div>
+                <div class="footer__about">
+                    <div class="footer__about-title"> About</div>
+                    <div class="footer__about-items">
+                        <a href="">Who we are</a>
+                        <a href="">Our value</a>
+                        <a href="">Our customers</a>
+                        <a href="">Our solutions</a>
+                        <a href="">Our mission</a>
+                    </div>
+                </div>
+                <div class="footer__sitemap">
+                    <div class="footer__sitemap-title"> Sitemap</div>
+                    <div class="footer__sitemap-items">
+                        <a href="#">Home </a>
+                        <a href="#">About </a>
+                        <a href="#">Features</a>
+                        <a href="#">Services</a>
+                        <a href="#">Products</a>
+                        <a href="#">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <div style="display: none;" id="modal">
