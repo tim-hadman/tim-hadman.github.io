@@ -8,11 +8,13 @@ $('.slider__inner').slick({
 })
 
 $('.Testimonialst__items-inner').slick({
-  infinite:false,
+  infinite:true,
   autoplay:false,
   nextArrow:false,
     prevArrow:false,
     slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay:true,
     responsive: [
      
         {
