@@ -801,3 +801,15 @@
     text-align: center;
     color: #757575;
 }
+.footer__copyright{
+    background: radial-gradient(100% 90000.01% at 0% 0%, #0C73D5 0%, #1194F6 100%);
+  
+}
+.footer__copyright-txt {
+    margin: 20px auto;
+    padding-top: 15px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+      color: white;}
