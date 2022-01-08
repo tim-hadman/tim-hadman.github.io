@@ -1,7 +1,8 @@
-$ (function(){
 
-    $('.news__slider').slick({
+$ (function(){
+   $('.news__slider').slick({
         infinite: true,
+     
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: true,
@@ -36,4 +37,8 @@ $ (function(){
         autoplay: false,
     autoplaySpeed: 3000,
       });
-})
+
+
+
+      
+    })
